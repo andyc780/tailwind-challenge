@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Tailwind Challenge</title>
+</head>
+<body>
+    <!-- RESEARCH AND SETUP (part 1):
+    Tailwind CSS is a css framework that allows for rapid and convienent css styling that is exceptionally great at prototyping.
+    It can remove the need for creating a CSS file as you can style all of your elements inside a class with very
+    basic,easy to type css styling. Traditional CSS would require something such as "background-color" while tailwind can shorten it to "bg",
+    making very convienent for people that need to develop something rapidly. It differs from other frameworks such as Bootstrap as Bootstrap allows
+    for even faster development while tailwind allows for more customization and performance compared to Bootstrap.
+    Utility classes are single purpose classes that can apply specific styling to any HTML element that you want. This allows users
+    to develop prototype sites rapidly while also keeping performance and consistency throughout the developing. -->
+
+    <!-- Profile Card Challenge (Part 2): -->
+    <!-- the webiste already feels responsive w/o media tags so yeah.. -->
+    <div class="m-auto mt-[100px] pt-[50px] h-[325px] bg-[#ECECEC] rounded-xl flex sm:w-[500px] md:w-[700px]">
+        <div class="p-1 w-125">
+            <h1 class="font-bold p-2">Leonardo DiCaprio</h1>
+            <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. You should eat strawberries with mustard a doloremque explicabo minima asperiores distinctio dignissimos repellat error.</p>
+            <button class="bg-red-300 rounded-sm p-1 border-2 border-red-900 m-2 hover:bg-red-400">Learn More</button>
+        </div>
+        <div class="pr-[20px]">
+            <img src="https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" alt="portrait image of leonardo" class="rounded-full h-[200px] w-[200px] border-2 border-gray-800">
+        </div>
+    </div>
+    <hr>
+
+
+
+    <!-- Grid Challenge (help me) -->
+    <div class="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-10 p-10">
+        <div class="bg-[#ECECEC] rounded-xl flex">
+            <div class="p-1 w-125">
+                <h1 class="font-bold p-2">Leonardo DiCaprio</h1>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. You should eat strawberries with mustard a doloremque explicabo minima asperiores distinctio dignissimos repellat error.</p>
+                <button class="bg-red-300 rounded-sm p-1 border-2 border-red-900 m-2 hover:bg-red-400">Learn More</button>
+            </div>
+            <div class="pr-[20px]">
+                <img src="https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" alt="portrait image of leonardo" class="rounded-full h-[200px] w-[200px] border-2 border-gray-800 mt-[20px]">
+            </div>
+        </div>
+
+
+        <div class="bg-[#ECECEC] rounded-xl flex align-center justify-center">
+            <div class="p-1 w-125">
+                <h1 class="font-bold p-2">Leonardo DiCaprio</h1>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. You should eat strawberries with mustard a doloremque explicabo minima asperiores distinctio dignissimos repellat error.</p>
+                <button class="bg-red-300 rounded-sm p-1 border-2 border-red-900 m-2 hover:bg-red-400">Learn More</button>
+            </div>
+            <div class="pr-[20px]">
+                <img src="https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" alt="portrait image of leonardo" class="rounded-full h-[200px] w-[300px] border-2 border-gray-800 mt-[20px]">
+            </div>
+        </div>
+
+
+        <div class="bg-[#ECECEC] rounded-xl flex">
+            <div class="p-1 w-125">
+                <h1 class="font-bold p-2">Leonardo DiCaprio</h1>
+                <p class="p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. You should eat strawberries with mustard a doloremque explicabo minima asperiores distinctio dignissimos repellat error.</p>
+                <button class="bg-red-300 rounded-sm p-1 border-2 border-red-900 m-2 hover:bg-red-400">Learn More</button>
+            </div>
+            <div class="pr-[20px]">
+                <img src="https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" alt="portrait image of leonardo" class="rounded-full h-[200px] w-[300px] border-2 border-gray-800 mt-[20px]">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
